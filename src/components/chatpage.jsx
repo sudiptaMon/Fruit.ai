@@ -3,11 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import "../styles/chatpage.css";
 
 const predefinedQA = {
-  "What is Fruit.AI?": "Fruit.AI is an AI-driven chatbot that provides personalized fruit recommendations based on your health needs.",
-  "How can Fruit.AI help me?": "We help you discover new fruits, understand their nutritional values, and find the perfect fruit for your diet.",
-  "What fruits are good for vitamin C?": "Fruits like oranges, strawberries, and kiwi are rich in vitamin C.",
-  "Can I ask for fruit recommendations?": "Yes, you can ask for fruit recommendations based on your dietary needs."
-  // Add more question-answer pairs here as needed
+  "hi":"Hello there? how are you?"
+  
 };
 
 const ChatPage = () => {
