@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../styles/navbar.css';
 
 const Navbar = ({ username }) => {
@@ -13,7 +14,7 @@ const Navbar = ({ username }) => {
       <div className="navbar-content">
         <h1 className="navbar-title">Fruit.AI</h1>
         <div className="navbar-links">
-          <span className="nav-item">Home</span>
+          <Link to="/" className="nav-item">Home</Link> {/* Use Link for navigation */}
           <div className="nav-item dropdown" onClick={toggleDropdown}>
             {username}
             <div className={`dropdown-menu ${isDropdownOpen ? 'show' : ''}`}>

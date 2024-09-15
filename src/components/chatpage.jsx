@@ -16,12 +16,12 @@ const ChatPage = () => {
   const [inputMessage, setInputMessage] = useState('');
 
   const handleSendMessage = () => {
-    if (inputMessage.trim() === '') return; // Ignore empty messages
+    if (inputMessage.trim() === '') return;
     
     const userMessage = { text: inputMessage, type: 'user', time: new Date().toLocaleTimeString() };
     setMessages(prevMessages => [...prevMessages, userMessage]);
 
-    // Check if the message matches any predefined question
+
     const botResponse = predefinedQA[inputMessage.trim().toLowerCase()];
 
     if (botResponse) {
@@ -41,13 +41,13 @@ const ChatPage = () => {
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
-      e.preventDefault(); // Prevent the default behavior (new line)
+      e.preventDefault(); 
       handleSendMessage();
     }
   };
 
   const navigateHome = () => {
-    navigate('/'); // Navigate to the home page
+    navigate('/'); 
   };
 
   return (

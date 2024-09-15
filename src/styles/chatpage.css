@@ -1,5 +1,4 @@
-/* Add this to your chatpage.css */
-/* Add this to your chatpage.css */
+
 .chat-header {
   display: flex;
   align-items: center;
@@ -8,19 +7,19 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Add this to your chatpage.css */
+
 .arrow {
   margin-right: 10px;
   cursor: pointer;
-  font-size: 2.5rem; /* Increase size for a thicker arrow */
-  color: #555; /* Gray color */
-  font-weight: 800; /* Make it bold */
+  font-size: 2.5rem; 
+  color: #555; 
+  font-weight: 800; 
   display: flex;
   align-items: center;
 }
 
 .arrow:hover {
-  color: #333; /* Darker gray on hover */
+  color: #333; 
 }
 
 
@@ -55,14 +54,14 @@
   font-family: 'Helvetica', sans-serif;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 100vw;  /* Ensure the chat page doesn't exceed the viewport width */
+  max-width: 100vw;  
 }
 
-/* Chat Header */
 
 
 
-/* Chat Body */
+
+
 .chat-body {
   flex-grow: 1;
   padding: 20px;
@@ -100,7 +99,6 @@
   text-align: right;
 }
 
-/* Chat Footer */
 .chat-footer {
   display: flex;
   padding: 10px;
@@ -138,11 +136,11 @@
   font-size: 1.5rem;
 }
 
-/* Media Query for Mobile Devices */
+
 @media (max-width: 768px) {
   .chat-page {
-    width: 100vw; /* Full width of the viewport */
-    margin: 0; /* Remove extra margins */
+    width: 100vw; 
+    margin: 0;
   }
 
   .chat-header {
@@ -178,12 +176,11 @@
   }
 }
 
-/* Media Query for Extra Small Devices (e.g., phones in portrait mode) */
 @media (max-width: 480px) {
   .chat-page {
-    width: 100vw; /* Full viewport width */
-    box-sizing: border-box; /* Ensure padding and borders are included in width */
-    overflow-x: hidden; /* Hide horizontal overflow */
+    width: 100vw; 
+    box-sizing: border-box; 
+    overflow-x: hidden; 
   }
 
   .chat-header {
@@ -235,34 +232,34 @@
   }
 }
 
-/* Media Query for Very Small Devices (e.g., small phones) */
+
 @media (max-width: 360px) {
   .chat-page {
-    width: 100vw; /* Full viewport width */
-    box-sizing: border-box; /* Ensure padding and borders are included in width */
-    overflow-x: hidden; /* Hide horizontal overflow */
-    padding: 0; /* Ensure no extra padding */
+    width: 100vw; 
+    box-sizing: border-box; 
+    overflow-x: hidden; 
+    padding: 0; 
   }
 
   .chat-header {
-    padding: 5px; /* Reduce padding */
-    flex-direction: row; /* Keep header items in a row */
-    flex-wrap: wrap; /* Wrap content if needed */
-    align-items: center; /* Align items centrally */
+    padding: 5px; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center; 
   }
 
   .arrow {
-    font-size: 1.5rem; /* Smaller size for small screens */
-    margin-right: 8px; /* Adjust spacing */
+    font-size: 1.5rem; 
+    margin-right: 8px; 
   }
 
   .avatar {
-    width: 25px; /* Smaller avatar */
+    width: 25px; 
     height: 25px;
   }
 
   .user-info h3 {
-    font-size: 0.9rem; /* Smaller font size */
+    font-size: 0.9rem; 
   }
 
   .status {
@@ -270,46 +267,46 @@
   }
 
   .chat-body {
-    padding: 8px; /* Reduce padding */
+    padding: 8px; 
   }
 
   .message {
-    font-size: 0.85rem; /* Smaller font size */
-    padding: 6px 10px; /* Reduce padding */
-    margin-bottom: 8px; /* Reduce margin */
+    font-size: 0.85rem; 
+    padding: 6px 10px; 
+    margin-bottom: 8px; 
   }
 
   .timestamp {
-    font-size: 0.6rem; /* Smaller font size */
+    font-size: 0.6rem; 
   }
 
   .chat-footer {
-    padding: 5px; /* Reduce padding */
-    flex-direction: row; /* Align footer items in a row */
-    flex-wrap: wrap; /* Wrap content if needed */
+    padding: 5px; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
   }
 
   .chat-footer input {
-    font-size: 0.85rem; /* Smaller font size */
-    padding: 6px; /* Reduce padding */
-    width: calc(100% - 50px); /* Adjust width to fit screen */
+    font-size: 0.85rem;
+    padding: 6px; 
+    width: calc(100% - 50px);
   }
 
   .chat-footer button {
-    padding: 6px; /* Reduce padding */
-    width: 35px; /* Adjust button size */
+    padding: 6px; 
+    width: 35px; 
   }
 
   .chat-footer button svg {
-    font-size: 1rem; /* Smaller icon size */
+    font-size: 1rem; 
   }
 }
 
-/* Media Query for Larger Devices (Laptop/Desktop) */
+
 @media (min-width: 769px) {
   .chat-page {
-    width: 80vw; /* 80% of the viewport width for larger screens */
-    margin: 0 auto; /* Center the chat page */
+    width: 80vw; 
+    margin: 0 auto; 
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
