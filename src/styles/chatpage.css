@@ -235,6 +235,76 @@
   }
 }
 
+/* Media Query for Very Small Devices (e.g., small phones) */
+@media (max-width: 360px) {
+  .chat-page {
+    width: 100vw; /* Full viewport width */
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    padding: 0; /* Ensure no extra padding */
+  }
+
+  .chat-header {
+    padding: 5px; /* Reduce padding */
+    flex-direction: row; /* Keep header items in a row */
+    flex-wrap: wrap; /* Wrap content if needed */
+    align-items: center; /* Align items centrally */
+  }
+
+  .arrow {
+    font-size: 1.5rem; /* Smaller size for small screens */
+    margin-right: 8px; /* Adjust spacing */
+  }
+
+  .avatar {
+    width: 25px; /* Smaller avatar */
+    height: 25px;
+  }
+
+  .user-info h3 {
+    font-size: 0.9rem; /* Smaller font size */
+  }
+
+  .status {
+    font-size: 0.7rem;
+  }
+
+  .chat-body {
+    padding: 8px; /* Reduce padding */
+  }
+
+  .message {
+    font-size: 0.85rem; /* Smaller font size */
+    padding: 6px 10px; /* Reduce padding */
+    margin-bottom: 8px; /* Reduce margin */
+  }
+
+  .timestamp {
+    font-size: 0.6rem; /* Smaller font size */
+  }
+
+  .chat-footer {
+    padding: 5px; /* Reduce padding */
+    flex-direction: row; /* Align footer items in a row */
+    flex-wrap: wrap; /* Wrap content if needed */
+  }
+
+  .chat-footer input {
+    font-size: 0.85rem; /* Smaller font size */
+    padding: 6px; /* Reduce padding */
+    width: calc(100% - 50px); /* Adjust width to fit screen */
+  }
+
+  .chat-footer button {
+    padding: 6px; /* Reduce padding */
+    width: 35px; /* Adjust button size */
+  }
+
+  .chat-footer button svg {
+    font-size: 1rem; /* Smaller icon size */
+  }
+}
+
 /* Media Query for Larger Devices (Laptop/Desktop) */
 @media (min-width: 769px) {
   .chat-page {
