@@ -40,7 +40,7 @@ const TranslateA = () => {
      
       <Navbar username="Sudipta Mondal" />
       
-      <h1>Translate A</h1>
+      <h1>Translate </h1>
       <textarea
         rows="4"
         cols="50"
