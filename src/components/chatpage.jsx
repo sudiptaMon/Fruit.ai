@@ -22,7 +22,7 @@ const ChatPage = () => {
     setMessages(prevMessages => [...prevMessages, userMessage]);
 
     // Check if the message matches any predefined question
-    const botResponse = predefinedQA[inputMessage.trim()];
+    const botResponse = predefinedQA[inputMessage.trim().toLowerCase()];
 
     if (botResponse) {
       setTimeout(() => {
