@@ -80,7 +80,7 @@ const TranslateA = () => {
         </select>
       </div>
 
-      <button onClick={handleTranslate} disabled={loading}>
+      <button onClick={handleTranslate} disabled={loading} className="button">
         {loading ? "Translating..." : "Translate"}
       </button>
 

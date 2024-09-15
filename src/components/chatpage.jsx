@@ -47,7 +47,7 @@ const ChatPage = () => {
   };
 
   const navigateHome = () => {
-    navigate('/'); 
+    navigate('/home'); 
   };
 
   return (

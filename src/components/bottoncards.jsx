@@ -6,7 +6,7 @@ const ButtonCard = ({ title, color, textColor = "blue", icon = null, onClick }) 
 
   const handleClick = () => {
     if (onClick) {
-      onClick(); // Call the custom onClick if passed
+      return onClick(); 
     }
     
     // Navigation based on the title
